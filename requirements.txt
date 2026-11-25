@@ -3,3 +3,4 @@ torch==2.15.0
 numpy==2.5.5
 matplotlib==3.11.2
 ipykernel==7.4.0
+stable-baselines3==2.9.2
