@@ -1,0 +1,95 @@
+{
+  "base": {
+    "n_sementes": 5,
+    "sementes": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "teste_media_das_sementes": 256.6647590843159,
+    "teste_dp_entre_sementes": 21.03375181721213,
+    "validacao_media_das_sementes": 251.15517838000764,
+    "validacao_dp_entre_sementes": 21.29628646715904,
+    "sucesso_teste_medio": 92.2,
+    "sucesso_validacao_medio": 92.8,
+    "sucesso_validacao_por_semente": [
+      83.0,
+      98.0,
+      96.0,
+      89.0,
+      98.0
+    ],
+    "medias_validacao_por_semente": [
+      215.27148646137357,
+      267.1882769362736,
+      256.9819932891713,
+      249.8862850016598,
+      266.44785021156
+    ],
+    "tempo_medio_s": 1393.3569514274598
+  },
+  "gamma_0.995": {
+    "n_sementes": 5,
+    "sementes": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "teste_media_das_sementes": 250.83175418098625,
+    "teste_dp_entre_sementes": 23.215792617915422,
+    "validacao_media_das_sementes": 245.10257277108286,
+    "validacao_dp_entre_sementes": 24.34309638828466,
+    "sucesso_teste_medio": 86.8,
+    "sucesso_validacao_medio": 87.8,
+    "sucesso_validacao_por_semente": [
+      94.0,
+      98.0,
+      95.0,
+      78.0,
+      74.0
+    ],
+    "medias_validacao_por_semente": [
+      259.9330926100398,
+      269.9942247022907,
+      257.18699714114956,
+      214.57262913723585,
+      223.82592026469842
+    ],
+    "tempo_medio_s": 1449.7115678787231
+  },
+  "target_2500": {
+    "n_sementes": 5,
+    "sementes": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "teste_media_das_sementes": 234.27183905643415,
+    "teste_dp_entre_sementes": 40.17012496949516,
+    "validacao_media_das_sementes": 239.39998369228414,
+    "validacao_dp_entre_sementes": 31.47913334246889,
+    "sucesso_teste_medio": 85.4,
+    "sucesso_validacao_medio": 88.2,
+    "sucesso_validacao_por_semente": [
+      93.0,
+      75.0,
+      88.0,
+      94.0,
+      91.0
+    ],
+    "medias_validacao_por_semente": [
+      262.86531131755993,
+      184.5343785190792,
+      252.37262791863338,
+      254.30628571745888,
+      242.9213149886894
+    ],
+    "tempo_medio_s": 1551.984398508072
+  }
+}
