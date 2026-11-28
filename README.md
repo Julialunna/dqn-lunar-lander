@@ -43,7 +43,7 @@ As dependências estão listadas em [requirements.txt](./requirements.txt):
 | `matplotlib` | 3.11.2 | Gráficos |
 | `ipykernel` | 7.4.0 | Kernel Python do notebook |
 | `stable-baselines3` | 2.9.2 | Implementação de comparação |
-| `notebook` | Conforme instalação | Interface Jupyter |
+| `notebook` | Conforme instalação | Interface Jupyter no navegador, usada na opção pelo terminal |
 
 Se a instalação do extra Box2D solicitar o SWIG, instale-o com `python -m pip install swig` e repita a instalação das dependências.
 
@@ -53,13 +53,25 @@ O projeto inclui modelos treinados, retornos por episódio em JSON e gráficos c
 
 ### 3.1 Notebook principal
 
-Na raiz do projeto:
+O notebook pode ser executado pelo VS Code ou pelo Jupyter iniciado no terminal. Nas duas opções, use o ambiente `.venv` com as dependências instaladas.
+
+#### Opção 1: VS Code
+
+1. Instale as extensões **Python** e **Jupyter** no VS Code.
+2. Abra a pasta raiz do projeto no editor e, em seguida, o arquivo [dqn_lunar_lander.ipynb](./dqn_lunar_lander.ipynb).
+3. No canto superior direito do notebook, clique em **Select Kernel / Selecionar Kernel**, escolha **Python Environments / Ambientes Python** e selecione o interpretador da `.venv`.
+4. Execute as células de cima para baixo ou use **Run All / Executar Tudo**.
+
+
+#### Opção 2: terminal e navegador
+
+Com a `.venv` ativada, execute na raiz do projeto:
 
 ```bash
 python -m notebook
 ```
 
-Abra [dqn_lunar_lander.ipynb](./dqn_lunar_lander.ipynb), selecione o kernel do ambiente virtual e execute as células em ordem. O notebook contém a implementação própria, o treinamento e a avaliação da referência, a busca de 17 configurações, o treinamento final e a comparação com o SB3 padrão.
+O notebook contém a implementação própria, o treinamento e a avaliação da referência, a busca de 17 configurações, o treinamento final e a comparação com o SB3 padrão.
 
 Com os modelos e JSON fornecidos presentes, as etapas de treinamento reutilizam os resultados salvos. A avaliação da referência em 100 episódios é executada novamente. Se os arquivos necessários estiverem ausentes, a respectiva etapa realiza um novo treinamento. Mudanças de parâmetros também podem fazer a busca ou o treinamento final ignorarem os resultados salvos.
 
